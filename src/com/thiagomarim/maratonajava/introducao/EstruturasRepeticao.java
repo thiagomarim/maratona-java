@@ -17,5 +17,13 @@ public class EstruturasRepeticao {
         for (int i = 0; i <= 10; i++) {
             System.out.println("Dentro do FOR " + i);
         }
+
+        // Break
+        int valorMax = 25;
+        for (int i = 0; i <= valorMax; i++) {
+            if (i > 25) {
+                break;
+            }
+        }
     }
 }
