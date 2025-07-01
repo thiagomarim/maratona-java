@@ -1,4 +1,4 @@
-package com.thiagomarim.maratonajava.introducao.exercicios;
+package com.thiagomarim.maratonajava.introducao;
 
 public class Operadores {
     public static void main(String[] args) {
