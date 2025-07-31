@@ -1,14 +1,14 @@
-package com.thiagomarim.maratonajava.javacore.execoes.exception.test;
+package com.thiagomarim.maratonajava.javacore.excecao.exception.test;
 
 import java.io.File;
 import java.io.IOException;
 
-public class ExceptionTest02 {
-    public static void main(String[] args) throws IOException{
+public class ExceptionTest01 {
+    public static void main(String[] args) {
         criarNovoArquivo();
     }
 
-    private static void criarNovoArquivo() throws IOException {
+    private static void criarNovoArquivo() {
         File file = new File("arquivo\\teste.txt");
 
         try {
@@ -16,7 +16,6 @@ public class ExceptionTest02 {
             System.out.println("Arquivo criado: " + isCriado);
         } catch (IOException e) {
             e.printStackTrace();
-            throw e;
         }
     }
 }
