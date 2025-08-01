@@ -26,14 +26,14 @@ public class StringPerformanceTest01 {
     }
 
     private static void concatStringBuilder(int tamanho) {
-        StringBuilder stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder(tamanho);
         for (int i = 0; i < tamanho; i++) {
             stringBuilder.append(i);
         }
     }
 
     private static void concatStringBuffer(int tamanho) {
-        StringBuffer stringBuffer = new StringBuffer();
+        StringBuffer stringBuffer = new StringBuffer(tamanho);
         for (int i = 0; i < tamanho; i++) {
             stringBuffer.append(i);
         }
