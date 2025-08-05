@@ -1,8 +1,7 @@
-package com.thiagomarim.maratonajava.javacore.datas.test;
+package com.thiagomarim.maratonajava.javacore.formatacao.test;
 
 import java.text.DateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
 public class LocaleTest01 {
